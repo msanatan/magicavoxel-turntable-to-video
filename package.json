@@ -4,6 +4,9 @@
   "description": "Take MagicaVoxel's turntable images in a folder and make a video out of them",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "turntabletovideo": "src/index.js"
+  },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
