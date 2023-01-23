@@ -1,0 +1,29 @@
+{
+  "name": "turntabletovideo",
+  "version": "0.1.0",
+  "description": "Take MagicaVoxel's turntable images in a folder and make a video out of them",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msanatan/magicavoxel-turntable-to-video.git"
+  },
+  "keywords": [
+    "magicavoxel",
+    "voxel",
+    "converter",
+    "video"
+  ],
+  "author": "Marcus Sanatan <msanatan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msanatan/magicavoxel-turntable-to-video/issues"
+  },
+  "homepage": "https://github.com/msanatan/magicavoxel-turntable-to-video#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
